@@ -5,7 +5,7 @@ export default class addFood extends React.Component {
     state = {
         name: '', 
         image: '', 
-        calories: '',
+        calories: Number(''),
         showForm: false,
         foods: []
     }
@@ -54,7 +54,7 @@ export default class addFood extends React.Component {
     render(){
         return (
             <div>
-                <button onClick={()=> this.setState({showForm: true})}>
+                <button className="add-food-btn" onClick={()=> this.setState({showForm: true})}>
                     Add New Food
                 </button>
                 {this.state.showForm ? this.showForm() : null}

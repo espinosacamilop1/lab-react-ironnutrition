@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.major-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
+}
+
+.major-div h1{
+  font-size: 24px;
+}
+
+.div-flex{
+  display: flex;
+  width: 80vw;
+}
+.search-bar{
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  width: 50vw;
+  height: 5vh;
+}
+
+.add-food-btn{
+  margin-bottom: 2.5vh;
+}
+
+.added-food{
+  margin-left: 4vw;;
+}
+
+.added-food h2{
+  font-size: 20px;
+}
